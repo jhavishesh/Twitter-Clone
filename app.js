@@ -35,8 +35,9 @@ mongoose.connect(process.env.MONGODB_URI,
 // });
 
 // ********** Server listening on port: 3000 **********
-const port = process.env.PORT || 3000;
-   
+const server = app.listen(process.env.PORT || 3000, function () {
+    console.log('Server is running');
+});
 const io = require('socket.io')(server, {
     pingTimeout: 60000
 });
@@ -133,8 +134,3 @@ io.on('connection', function(socket) {
         socket.in(room).emit('notification received', room);
     });
 });
-
-app.listen(port,()=>{
-
-    console.log(`listening to the port no at ${port}`)
-})
