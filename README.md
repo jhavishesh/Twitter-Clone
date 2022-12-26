@@ -28,5 +28,3 @@
 This is a web application for social media. The fundamental concept of the online application is to socialise and connect individuals. Users can follow other users, chat with them, follow their posts, like, repost, and comment on them, search for different users, have their personal profile setup with a profile picture and a cover photo, pin posts for profile viewers, receive real-time notifications, create group chats, and a whole lot more.
 
 <hr>
-
- https://vishesh-twitter-clone.herokuapp.com/
