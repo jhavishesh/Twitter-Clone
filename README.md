@@ -29,5 +29,5 @@ This is a web application for social media. The fundamental concept of the onlin
 
 <hr>
 
+## [Demo Link](https://drive.google.com/file/d/1FZcyM8sF151DMA06vYSIh4il-fpEA1S5/view?usp=drive_link)
 
-## Demo link : https://screenrec.com/share/fR0P3x7ETr
